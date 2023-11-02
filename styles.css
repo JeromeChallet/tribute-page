@@ -1,0 +1,121 @@
+body {
+  width: 100%;
+  margin: 0;
+  height: 100vh;
+  position: fixed;
+  background-color: black;
+  color: white;
+  font-family: "Poppins", sans-serif;
+  font-size: 1rem;
+  font-weight: 400px;
+  line-height: 1.4;
+  top: 0;
+  left: 0;
+  background-image: linear-gradient(
+      115deg,
+      rgba(58, 58, 158, 0.8),
+      rgba(136, 136, 206, 0.7)
+    ),
+    url("img/bck.png");
+  background-size: 100% 100vh;
+  background-repeat: no-repeat;
+}
+
+title {
+}
+
+p h1 {
+  margin: 1em auto;
+  text-align: center;
+}
+
+form {
+  width: 60vw;
+  max-width: 500px;
+  min-width: 300px;
+  margin: 0 auto;
+  padding: 2em;
+  background-color: rgba(27, 27, 50, 0.8);
+  border-radius: 0.25rem;
+  display: block;
+}
+
+fieldset {
+}
+
+textarea {
+  display: block;
+  width: 100%;
+  padding: 0.5rem;
+  border-radius: 0.25rem;
+  resize: vertical;
+  min-height: 120px;
+  text-align: start;
+  text-wrap: wrap;
+  overflow-wrap: break-word;
+  border-color: -internal-light-dark(rgb(118, 118, 118), rgb(133, 133, 133));
+  box-sizing: border-box; /* resize the parent container */
+}
+
+label {
+  display: block;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="number"],
+#game-type {
+  display: block;
+  width: 100%;
+  margin: 1em auto;
+  height: 2.375rem;
+  padding: 0 0.5rem;
+  color: #495057;
+  background-clip: padding-box;
+  box-sizing: border-box;
+  border-radius: 0.25rem;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  font-size: 1.1rem;
+  background-color: #fff;
+  border-color: white;
+  min-width: 300px;
+}
+
+#title {
+}
+
+#description {
+}
+
+#survey-form {
+}
+
+#name {
+}
+
+#email {
+}
+
+#number {
+}
+
+#name-label {
+}
+
+#email-label {
+}
+
+#number-label {
+}
+
+#game-type {
+}
+
+#radio-btn {
+}
+
+#checkboxes {
+}
+
+#submit {
+}
