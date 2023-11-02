@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link
+      rel="stylesheet"
+      href="styles.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
+    <title>Video Game Survey Form</title>
+  </head>
+  <body>
+    <h1 id="title">Video Game Survey Form</h1>
+    <p id="description">
+      Thank you for taking the time to help us improve the platform
+    </p>
+
+    <form id="survey-form">
+      <label for="name-label"
+        >Name<input
+          id="name-label"
+          type="text"
+          required
+          placeholder="Enter your name"
+      /></label>
+      <label for="email-label"
+        >Email<input
+          id="email-label"
+          required
+          type="email"
+          placeholder="Enter your email"
+      /></label>
+      <label for="number-label"
+        >Age<input
+          id="number-label"
+          type="number"
+          min="18"
+          max="120"
+          placeholder="Age"
+      /></label>
+      <label for="game-type"
+        >What kind of game do you like?
+        <select
+          id="game-type"
+          placeholder="(select one)"
+        >
+          <option value="">(select one)</option>
+          <option value="1">Action</option>
+          <option value="2">RPG</option>
+          <option value="3">RTS</option>
+          <option value="4">FPS</option>
+          <option value="5">Simulation</option>
+          <option value="6">Sports</option>
+          <option value="7">QTE</option>
+          <option value="8">Fighting</option>
+          <option value="9">Casual</option>
+          <option value="10">Puzzle</option>
+          <option value="11">Survival</option>
+          <option value="12">Other</option>
+        </select></label
+      >
+      <label for="radio-btn">
+        <input
+          type="radio"
+          value="Definitely"
+          name="recommendation" />
+        <input
+          type="radio"
+          value="Maybe"
+          name="recommendation" />
+        <input
+          type="radio"
+          value="Not sure"
+          name="recommendation"
+      /></label>
+      <label for="checkboxes">
+        <input
+          type="checkbox"
+          value="Front-end Projects" />
+        <input
+          type="checkbox"
+          value="Back-end Projects"
+      /></label>
+      <textarea></textarea>
+      <button
+        id="submit"
+        type="submit"
+      >
+        Submit
+      </button>
+    </form>
+  </body>
+</html>
