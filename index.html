@@ -18,84 +18,113 @@
     <title>Video Game Survey Form</title>
   </head>
   <body>
-    <h1 id="title">Video Game Survey Form</h1>
-    <p id="description">
-      Thank you for taking the time to help us improve the platform
-    </p>
+    <div class="container">
+      <h1 id="title">Video Game Survey Form</h1>
+      <p id="description">
+        Thank you for taking the time to help us improve the platform
+      </p>
 
-    <form id="survey-form">
-      <label for="name-label"
-        >Name<input
-          id="name-label"
-          type="text"
-          required
-          placeholder="Enter your name"
-      /></label>
-      <label for="email-label"
-        >Email<input
-          id="email-label"
-          required
-          type="email"
-          placeholder="Enter your email"
-      /></label>
-      <label for="number-label"
-        >Age<input
-          id="number-label"
-          type="number"
-          min="18"
-          max="120"
-          placeholder="Age"
-      /></label>
-      <label for="game-type"
-        >What kind of game do you like?
-        <select
-          id="game-type"
-          placeholder="(select one)"
+      <form id="survey-form">
+        <fieldset>
+          <label for="name-label"
+            ><p>Name</p>
+            <input
+              id="name-label"
+              type="text"
+              required
+              placeholder="Enter your name"
+          /></label>
+          <label for="email-label"
+            ><p>Email</p>
+            <input
+              id="email-label"
+              required
+              type="email"
+              placeholder="Enter your email"
+          /></label>
+          <label for="number-label"
+            ><p>Age</p>
+            <input
+              id="number-label"
+              type="number"
+              min="18"
+              max="120"
+              placeholder="Age"
+          /></label>
+          <label for="game-type"
+            ><p>What kind of game do you like?</p>
+            <select
+              id="game-type"
+              placeholder="(select one)"
+            >
+              <option
+                disabled
+                selected
+                value
+              >
+                (select one)
+              </option>
+              <option value="1">Action</option>
+              <option value="2">RPG</option>
+              <option value="3">RTS</option>
+              <option value="4">FPS</option>
+              <option value="5">Simulation</option>
+              <option value="6">Sports</option>
+              <option value="7">QTE</option>
+              <option value="8">Fighting</option>
+              <option value="9">Casual</option>
+              <option value="10">Puzzle</option>
+              <option value="11">Survival</option>
+              <option value="12">Other</option>
+            </select></label
+          >
+        </fieldset>
+        <!-- radio buttons -->
+        <fieldset>
+          <legend>
+            <p>Would you recommend to play video games to a friend?</p>
+          </legend>
+          <label for="radio-yes">
+            <input
+              id="radio-yes"
+              type="radio"
+              name="recommendation"
+              checked
+            />
+            Definitely</label
+          ><label for="radio-no">
+            <input
+              id="radio-no"
+              type="radio"
+              name="recommendation"
+            />
+            Absolutely not
+          </label>
+          <label for="radio-maybe">
+            <input
+              id="radio-maybe"
+              type="radio"
+              name="recommendation"
+            />
+            Not sure
+          </label>
+        </fieldset>
+        <label for="checkboxes">
+          <input
+            type="checkbox"
+            value="Front-end Projects" />
+          <input
+            type="checkbox"
+            value="Back-end Projects"
+        /></label>
+        <textarea></textarea>
+        <button
+          id="submit"
+          type="submit"
         >
-          <option value="">(select one)</option>
-          <option value="1">Action</option>
-          <option value="2">RPG</option>
-          <option value="3">RTS</option>
-          <option value="4">FPS</option>
-          <option value="5">Simulation</option>
-          <option value="6">Sports</option>
-          <option value="7">QTE</option>
-          <option value="8">Fighting</option>
-          <option value="9">Casual</option>
-          <option value="10">Puzzle</option>
-          <option value="11">Survival</option>
-          <option value="12">Other</option>
-        </select></label
-      >
-      <label for="radio-btn">
-        <input
-          type="radio"
-          value="Definitely"
-          name="recommendation" />
-        <input
-          type="radio"
-          value="Maybe"
-          name="recommendation" />
-        <input
-          type="radio"
-          value="Not sure"
-          name="recommendation"
-      /></label>
-      <label for="checkboxes">
-        <input
-          type="checkbox"
-          value="Front-end Projects" />
-        <input
-          type="checkbox"
-          value="Back-end Projects"
-      /></label>
-      <textarea></textarea>
-      <button
-        id="submit"
-        type="submit"
-      >
-        Submit
-      </button>
-    </form>
+          Submit
+        </button>
+      </form>
+    </div>
   </body>
 </html>

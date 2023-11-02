@@ -7,7 +7,7 @@ body {
   color: white;
   font-family: "Poppins", sans-serif;
   font-size: 1rem;
-  font-weight: 400px;
+  font-weight: 400;
   line-height: 1.4;
   top: 0;
   left: 0;
@@ -21,12 +21,13 @@ body {
   background-repeat: no-repeat;
 }
 
-title {
+h1 {
+  text-align: center;
+  margin-bottom: 0.5rem;
 }
 
-p h1 {
-  margin: 1em auto;
-  text-align: center;
+p {
+  margin: 0 0 0.5rem 0;
 }
 
 form {
@@ -38,9 +39,6 @@ form {
   background-color: rgba(27, 27, 50, 0.8);
   border-radius: 0.25rem;
   display: block;
-}
-
-fieldset {
 }
 
 textarea {
@@ -61,13 +59,17 @@ label {
   display: block;
 }
 
+input {
+  font-family: "Poppins", sans-serif;
+}
+
 input[type="text"],
 input[type="email"],
 input[type="number"],
 #game-type {
   display: block;
   width: 100%;
-  margin: 1em auto;
+  margin: 0 auto 1em auto;
   height: 2.375rem;
   padding: 0 0.5rem;
   color: #495057;
@@ -81,10 +83,34 @@ input[type="number"],
   min-width: 300px;
 }
 
+input[type="radio"] {
+}
+
+fieldset {
+  border: none;
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  width: 100%;
+  margin: 3.125rem auto 0 auto;
+}
+
 #title {
+  margin-bottom: 0;
+  font-size: 2em;
+  font-weight: 400;
+  line-height: 1.2;
 }
 
 #description {
+  margin-top: 0;
+  font-style: italic;
+  font-weight: 200;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.4);
+  text-align: center;
+  margin-bottom: 0.5rem;
 }
 
 #survey-form {
