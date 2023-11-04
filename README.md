@@ -1,10 +1,10 @@
 # Census Web Page
 
-Welcome to the Census Web Page, a simple HTML and CSS page designed for census-like interactions.
+Welcome to the Tribute Page to Michael Crichton, a simple HTML and CSS page designed to learn about his lifetime accomplishements.
 
 ## Introduction
 
-This project is a basic web page created using HTML and CSS to simulate a census-like experience. It's intended for educational purposes or as a starting point for web development projects. The web page is static, without any backend logic or JavaScript functionality, making it easy to understand and modify.
+This project is a basic web page created using HTML and CSS. It's intended for educational purposes or as a starting point for web development projects. The web page is static, without any backend logic or JavaScript functionality, making it easy to understand and modify.
 
 ## Features
 
