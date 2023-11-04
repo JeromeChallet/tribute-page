@@ -19,5 +19,5 @@ To get started with this project, simply clone the repository or download the so
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/jrme421/tribute-page.git
+   git clone https://github.com/jrme421/census-page.git
    ```
