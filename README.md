@@ -8,7 +8,7 @@ This project is a basic web page created using HTML and CSS. It's intended for e
 
 ## Features
 
-- User-friendly, static web page with a census theme.
+- User-friendly, static web page with a learning theme.
 - Provides a simple, responsive layout for various screen sizes.
 - Easy to customize and add more content.
 
